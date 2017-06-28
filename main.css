@@ -15,7 +15,6 @@ body {
   width:300px;
   height:250px;
   overflow:hidden;
-  /*visibility:hidden;*/
 }
 
 .text {
@@ -23,7 +22,18 @@ body {
   z-index: 1;
 }
 
-#text1, #text2, #text3 {
+#text1, #text2, #text3, #cta {
+  position: absolute;
   width: 300px;
   height: auto;
+  visibility: hidden;
+}
+
+.drink {
+  position: absolute;
+}
+
+.cta {
+  position: absolute;
+  z-index: 1;
 }
