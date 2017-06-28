@@ -17,3 +17,13 @@ body {
   overflow:hidden;
   /*visibility:hidden;*/
 }
+
+.text {
+  position: absolute;
+  z-index: 1;
+}
+
+#text1, #text2, #text3 {
+  width: 300px;
+  height: auto;
+}
